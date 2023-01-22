@@ -297,8 +297,8 @@ function Library:CreateWindow(windowname,windowinfo)
 
             LabelHolder.Name = "LabelHolder"
             LabelHolder.Parent = Home
-            LabelHolder.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
-            LabelHolder.BorderColor3 = Color3.fromRGB(17, 17, 17)
+            LabelHolder.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+            LabelHolder.BorderColor3 = Color3.fromRGB(15, 15, 15)
             LabelHolder.BorderSizePixel = 0
             LabelHolder.Position = UDim2.new(0.0167785231, 0, 0, 0)
             LabelHolder.Size = UDim2.new(0, 288, 0, 26)
@@ -309,9 +309,9 @@ function Library:CreateWindow(windowname,windowinfo)
             
             LabelTitle.Name = "LabelTitle"
             LabelTitle.Parent = LabelHolder
-            LabelTitle.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            LabelTitle.BackgroundColor3 = Color3.fromRGB(15,15,15)
             LabelTitle.BackgroundTransparency = 1.000
-            LabelTitle.BorderColor3 = Color3.fromRGB(17, 17, 17)
+            LabelTitle.BorderColor3 = Color3.fromRGB(15, 15, 15)
             LabelTitle.BorderSizePixel = 0
             LabelTitle.Size = UDim2.new(0, 288, 0, 15)
             LabelTitle.Font = Enum.Font.GothamSemibold
@@ -321,9 +321,9 @@ function Library:CreateWindow(windowname,windowinfo)
             
             LabelInfo.Name = "LabelInfo"
             LabelInfo.Parent = LabelHolder
-            LabelInfo.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+            LabelInfo.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
             LabelInfo.BackgroundTransparency = 1.000
-            LabelInfo.BorderColor3 = Color3.fromRGB(17, 17, 17)
+            LabelInfo.BorderColor3 = Color3.fromRGB(15, 15, 15)
             LabelInfo.BorderSizePixel = 0
             LabelInfo.Position = UDim2.new(0, 0, 0.653846145, 0)
             LabelInfo.Size = UDim2.new(0, 288, 0, 9)
